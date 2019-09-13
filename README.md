@@ -135,13 +135,13 @@ callback이 왜 계층화를 위배하지 않는지에 대한 정말 정말 좋�
 6. 번외  
 계층화와 구조화를 공부하다보니 번뜩하고 깨달은 것은 Spring을 사용하는 이유가 이게 아닐까 싶었다.  
 Spring Framework는  
-- 컨테이너를 통해 객체를 Spring이 관리한다.  
-- Plain Old Java Object 방식으로 특정 인터페이스에 종속되지 않는다.  
-- Inversion of Control을 통해 Spring이 제어권을 소유한다.  
-- Dependency Injection을 통해 각 구조화 계층 간 의존성을 연결 시켜준다.  
-- Aspect-Oriented Programing을 통해 각 코드를 구조화 시킬 수 있다.  
-- Persistent API를 적극 지원한다.  
-- 많은 라이브러리를 분리, 결합 시킬 수 있다.  
+  - 컨테이너를 통해 객체를 Spring이 관리한다.  
+  - Plain Old Java Object 방식으로 특정 인터페이스에 종속되지 않는다.  
+  - Inversion of Control을 통해 Spring이 제어권을 소유한다.  
+  - Dependency Injection을 통해 각 구조화 계층 간 의존성을 연결 시켜준다.  
+  - Aspect-Oriented Programing을 통해 각 코드를 구조화 시킬 수 있다.  
+  - Persistent API를 적극 지원한다.  
+  - 많은 라이브러리를 분리, 결합 시킬 수 있다.  
 구조화 프로그래밍을 지원하고, 계층별 구조화에 따른 의존성을 사용자가 신경 쓸 필요 없다는 것  
 이것이 스프링을 사용하는 핵심적인 이유가 아닐까?
 
