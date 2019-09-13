@@ -137,13 +137,9 @@ callback이 왜 계층화를 위배하지 않는지에 대한 정말 정말 좋�
 
 
 # 참조
-- [SoftwareArechitecture 구조화와 계층화 - O'Reilly]
-(https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html)  
+- [SoftwareArechitecture 구조화와 계층화 - O'Reilly](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html)  
 - [WebApp 계층화 - University of Debrecen](https://gyires.inf.unideb.hu/GyBITT/08/index.html)  
-- [10가지 소프트웨어 아키텍쳐 패턴]
-(https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
-- [구조적 프로그래밍 - wikipedia]
-(https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%A1%B0%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)  
-- [관심사의 분리 - 코딩스쿨]
-(https://gamecodingschool.org/2015/05/29/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%ACseparation-of-concerns/)  
+- [10가지 소프트웨어 아키텍쳐 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
+- [구조적 프로그래밍 - wikipedia](https://ko.wikipedia.org/wiki/%EA%B5%AC%EC%A1%B0%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+- [관심사의 분리 - 코딩스쿨](https://gamecodingschool.org/2015/05/29/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%ACseparation-of-concerns/)  
 
