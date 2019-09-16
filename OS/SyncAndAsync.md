@@ -14,12 +14,13 @@ Blcoking은 I/O의 사용 때문에 벌어지는 일이다.
 
 - 우리가 계속 보게 될 사진  
 ![image](https://user-images.githubusercontent.com/38939634/64935162-89c53500-d88a-11e9-9470-00a9fb3be8df.png)  
-[뒤태지존의 끄적거림](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)이라는 깃허브 블로그에서 가져온건데 이걸 보고서 이해되면 당신은  
-이미 모든 걸 이해하고 있다.  
+[뒤태지존의 끄적거림](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)이라는 깃허브 블로그에서 가져온건데 이걸 보고서 이해되면 당신은 이미 모든 걸 이해하고 있다.  
 
 ## Blcoking vs. Synchronus  
-일단 Blocking과 Non-Blocking은 low-level에서밖에 다룰 수 없는 I/O를 위한 것이다는걸 알아두자.  - Blocking I/O  
-실제로 Blocking과 Non-Blocking은 User-level에서 다룰 수 없는 I/O를 다루기 위한 것으로 우리가 사용할 때 직접 I/O를 다루는 것 같지만 실제로는 OS에게 요청을 보내고, OS가 작업을 처리해주는 것이다.  
+일단 Blocking과 Non-Blocking은 low-level에서밖에 다룰 수 없는 I/O를 위한 것이다는걸 알아두자.  
+- Blocking I/O  
+실제로 Blocking과 Non-Blocking은 User-level에서 다룰 수 없는 I/O를 다루기 위한 것으로 우리가 사용할 때 직접 I/O를 다루는 것 같지만  
+실제로는 OS에게 요청을 보내고, OS가 작업을 처리해주는 것이다.  
 내가 데이터를 입력 중일 때 스레드에서 다른 작업이 벌어진다면 나는 데이터를 끝까지 입력할 수 없을 거다.  
 이런 유쾌하지 않은 상황을 방지하는 것이 Blocking으로 I/O작업이 일어나는 중간에 스레드는 I/O작업이 종료될 때까지 Blocking 되버린다.  
 
