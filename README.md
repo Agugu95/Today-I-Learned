@@ -5,6 +5,7 @@
 - [Cache 사본판별](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/Caching.md)  
 - [Gateway/Tunneling](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/Gateway.md)  
 - [URL](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/URL.md)  
+- [Proxy](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Proxy.md)  
 ## OS  
 - [Concurrency-vs-Parallelism](https://github.com/Agugu95/Today-I-Learned/blob/master/OS/Concurrence-vs-Parallel.md)  
 - [Synchronous/Asynchronous and Blocking/Non-Blocking](https://github.com/Agugu95/Today-I-Learned/blob/master/OS/SyncAndAsync.md)  
