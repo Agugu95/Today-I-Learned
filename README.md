@@ -6,7 +6,9 @@
 - [Gateway/Tunneling](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/Gateway.md)  
 - [URL](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/URL.md)  
 - [Proxy](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Proxy.md)  
-- [Authorization](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Authorization.md)  
+- [Authorization HTTP보안/인증](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Authorization.md)  
+- [Internationalization 프로토콜에서 데이터 인코딩](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Internationalization.md)  
+
 
 ## OS  
 - [Concurrency-vs-Parallelism](https://github.com/Agugu95/Today-I-Learned/blob/master/OS/Concurrence-vs-Parallel.md)  
