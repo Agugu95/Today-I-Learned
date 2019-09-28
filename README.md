@@ -19,7 +19,10 @@
 
 ## Network  
 [그림으로 배우는 TCP/IP]()    
-[HTTP완벽가이드]()  
+[HTTP완벽가이드]()
+- 3챕터 13장 다이제스트 인증, 5챕터 19장 웹 호스팅을 제외한 부분을 읽었다.  
+특히나 1챕터 HTTP 기초, 2챕터 웹 아키텍쳐, 3챕터 보안, 식별, 인가, 4챕터 엔티티, 인코딩, 국제화 부분은 정말 
+
 [그림으로 공부하는 IT 인프라 구조]()    
 
 - [Cache 사본판별](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/Caching.md)  
