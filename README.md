@@ -28,6 +28,7 @@
 - [Proxy](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Proxy.md)  
 - [Authorization HTTP보안/인증](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Authorization.md)  
 - [Internationalization 프로토콜에서 데이터 인코딩](https://github.com/Agugu95/Today-I-Learned/tree/master/Network/Internationalization.md)  
+- [Redirection과 Load-Balancing](https://github.com/Agugu95/Today-I-Learned/blob/master/Network/Redirection-and-LoadBalancing.md)  
 
 ## OS  
 [OS?OhYES!]()  
