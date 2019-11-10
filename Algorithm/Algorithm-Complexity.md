@@ -14,7 +14,8 @@ Complexity를 번역하면 복잡도 또는 복잡성이라고 한다.
   Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm, 
   supposing that each elementary operation takes a fixed amount of time to perform. 
   Thus, the amount of time taken and the number of elementary operations performed 
-  by the algorithm are taken to differ by at most a constant factor.
+  by the algorithm are taken to differ by at most a constant factor.  
+  
 중요한 맥락만 보자면 Time Complexity란 알고리즘에따라 각 기본 연산이 수행되는 횟수를 계산하여 추정하는 것으로  
 각 기본연산이 고정 된 시간을 가진다고 했을 때, 알고리즘에 의해 수행되는 시간과 계산량은 들어오는 최대 상수 인자에 따라 달라진다.  
 
