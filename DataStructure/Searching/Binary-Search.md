@@ -12,3 +12,60 @@ k는 시행횟수였으니 결국 시행 횟수는 log2N, 즉 N개의 데이터�
 따라서 시간복잡도는 Big O 표기법으로 표기한다면 O(logN)이 되겠다.  
 
 *수식으로 표현하고 싶은데...*
+
+## Binary Search 구현 
+- API를 사용하지 않은 구현  
+```
+  public class bSearch {
+    public static void main(String[] args) {
+      int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7};
+      int key, result;
+      Scanner sc = new Scanner(System.in);
+      do {
+        System.out.print("찾을 값을 입력하세요: ");
+        key = sc.nextInt();
+        result = binarySearch(key, arr);
+        if (result == -1) {
+          System.out.println("해당하는 값이 없습니다.");
+        } while (key == result);
+    }
+    
+    public static int binarySearch(int key, int[] arr){
+      int mid = arr / 2;
+      int start, end;
+      start = 0;
+      end = arr.length -1;
+      while (end >= right) {
+      if (key == arr[mid]) {
+        return mid;
+        } 
+      if (key < arr[mid]) {
+        end = mid - 1;
+        } else {
+          start = mid + 1;
+         }
+      }
+    }
+}
+```
+
+- java.util.Arrays.binarySearch() 사용
+```
+public class apiBsearch {
+  public static void main(String[] args) {
+    int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7};
+    int key, result;
+    Scanner sc = new Scanner(System.in);
+    do {
+      System.out.print("찾을 값을 입력하세요: ");
+      key = sc.nextInt();
+      result = Arrays.binarySearch(arr, key);
+      if (result == -1) {
+        System.out.println("찾는 값이 없습니다.");
+       }
+     } while (key == result);
+  }
+ }
+```
+   
+   
