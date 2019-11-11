@@ -31,11 +31,12 @@ k는 시행횟수였으니 결국 시행 횟수는 log2N, 즉 N개의 데이터�
     }
     
     public static int binarySearch(int key, int[] arr){
-      int mid = arr / 2;
+      int mid;
       int start, end;
       start = 0;
       end = arr.length -1;
-      while (end >= right) {
+      while (end >= start) {
+      mid = (start + end) / 2;
       if (key == arr[mid]) {
         return mid;
         } 
@@ -45,6 +46,7 @@ k는 시행횟수였으니 결국 시행 횟수는 log2N, 즉 N개의 데이터�
           start = mid + 1;
          }
       }
+      return -1;
     }
 }
 ```
