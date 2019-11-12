@@ -50,14 +50,21 @@
 [C/C++로 배우는 자료구조론](http://www.yes24.com/Product/Goods/1402199?scode=032&OzSrank=5)  
 
 - [ADT는 추상자료형이라고 하지 말자](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/ADT.md)  
-- [자바에서의 약간은 다른 Multi-Demensional Array](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Multi-Demensional-Array.md)  
+- [자바에서의 약간은 다른 Multi-Demensional Array](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Multi-Dementinal-Array.md)  
 - [에라토스테네스의 체를 이용한 소수탐색 개선](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/소수탐색개선.md)  
+
 - Data Structure Searching  
   - [순차검색](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Searcing/Sequential-Search.md)    
   - [이진검색](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Searchig/Binary-Search.md)  
+  
+- Sorting Algorithm  
+[정렬 알고리즘이란?](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Sort/SortingAlgorithm.md)  
 
 ## Algorithm  
-[알고리즘 문제해결 전략](http://www.yes24.com/Product/Goods/8006522?Acode=101)  
+[알고리즘 문제해결 전략](http://www.yes24.com/Product/Goods/8006522?Acode=101)
+
+- 종만북  
+[7p ROCK FESTIVAL 난이도: 하](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/%EC%A2%85%EB%A7%8C%EB%B6%81/FESTIVAL.md)  
 
 ## ETC  
 - [계층화와 구조화](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/StructuredAndLayering.md)  
