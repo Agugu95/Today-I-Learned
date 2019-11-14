@@ -1,47 +1,46 @@
-### 구조화(Structured)
-1. 구조화란?  
-뭔가가 정렬 되어서 만들어져있는 것.. 같은 느낌인데 구조화가 정확히 뭘까?  
-일단 프로그래밍 적 개념에서는 구조화는 절차적 프로그래밍의 하위 개념이지만 GO-TO를 없앤 개념  
-제일 유명한 다익스트라의 구조적 프로그래밍에 따르면 하나의 프로그램의 논리 구조는 제한된 몇 가지 방법만을 사용하여 비슷한 서브 프로그램으로 구성된다.  
-이는 각각의 구조와 그 사이의 관계를 이해하면 전체 프로그램의 이해를 쉽게 할 수 있으며  
-[SoC (Separation-Of-Concerns)](https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d)  구조를 만드는데 유리하다.  
-  ```
-  클래스의 단일 책임 원칙과 비슷한 개념으로 보인다.  
-  만약  DB를 사용하고, DB를 연결하고, 데이터를 가져오고, 목록을 표현하는 코드라면   
-        <?php
-      $conn = new mysqli(HOST, ID, PW, DB);
-      if ($conn->connect_error) {
-          die($conn->connect_error);
-      }
-      echo “<!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset=’utf-8'>
-      </head>
-      <body>“;
-      $result = $conn->query(“SELECT * FROM tasks”);
-      if($result) {
-          echo “<ul>”;
-          while($row = $result->fetch(MYSQLI_ASSOC)) {
-              echo “<li>” . $row[‘name’] . “</li>”;
-          }
-          echo “</ul>”;
-      } else {
-          echo “<p>할 일이 없습니다.</p>”;
-      }
-      echo “</body>
-      </html>”;  
-  ```  
-  
-이 짧은 코드에서만  
-DB가 바뀌면? 연결 방식은? 데이터가 많아지면? 화면 구성이 바뀌면?과 같은 수많은 Concerns가 보인다.  
-이런 수많은 관심사를 하나의 프로그램이 전부 소유하게 하지 말고 가능하면 쪼개자는 것이 Separation Of Concerns라고 한다.  
-그 외 GO-TO문의 해로움 등이 있지만 결국 객체지향적 프로그래밍의 시초라고 봐도 무방하겠다.
+# 구조화(Structured)
+- 구조화란?  
+  뭔가가 정렬 되어서 만들어져있는 것.. 같은 느낌인데 구조화가 정확히 뭘까?  
+  일단 프로그래밍 적 개념에서는 구조화는 절차적 프로그래밍의 하위 개념이지만 GO-TO를 없앤 개념  
+  제일 유명한 다익스트라의 구조적 프로그래밍에 따르면 하나의 프로그램의 논리 구조는 제한된 몇 가지 방법만을 사용하여 비슷한 서브 프로그램으로 구성된다.  
+  이는 각각의 구조와 그 사이의 관계를 이해하면 전체 프로그램의 이해를 쉽게 할 수 있으며  
+  [SoC (Separation-Of-Concerns)](https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d)  구조를 만드는데 유리하다.  
+    ```
+    클래스의 단일 책임 원칙과 비슷한 개념으로 보인다.  
+    만약  DB를 사용하고, DB를 연결하고, 데이터를 가져오고, 목록을 표현하는 코드라면   
+          <?php
+        $conn = new mysqli(HOST, ID, PW, DB);
+        if ($conn->connect_error) {
+            die($conn->connect_error);
+        }
+        echo “<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset=’utf-8'>
+        </head>
+        <body>“;
+        $result = $conn->query(“SELECT * FROM tasks”);
+        if($result) {
+            echo “<ul>”;
+            while($row = $result->fetch(MYSQLI_ASSOC)) {
+                echo “<li>” . $row[‘name’] . “</li>”;
+            }
+            echo “</ul>”;
+        } else {
+            echo “<p>할 일이 없습니다.</p>”;
+        }
+        echo “</body>
+        </html>”;  
+    ```  
 
-2. 구조화를 해야하는 이유와 어떻게 해야할까?  
-그렇다면 구조화를 해야하는 이유는 뭐고 어떻게 해야할까?  
-- 구조화의`` 이유  
-  구조화의 이유는 구조화의 목적대로 프로그램을 각 관심사별로 분리하여 각 서브 프로그램이 하나씩   의 관심사만을 소유하게 만들어 프로그램의 복잡성을 감소시키는 것이 그 이유이다.  
+  이 짧은 코드에서만  
+  DB가 바뀌면? 연결 방식은? 데이터가 많아지면? 화면 구성이 바뀌면?과 같은 수많은 Concerns가 보인다.  
+  이런 수많은 관심사를 하나의 프로그램이 전부 소유하게 하지 말고 가능하면 쪼개자는 것이 Separation Of Concerns라고 한다.  
+  그 외 GO-TO문의 해로움 등이 있지만 결국 객체지향적 프로그래밍의 시초라고 봐도 무방하겠다.
+
+## 구조화를 해야하는 이유와 어떻게 해야할까?  
+  구조화의 이유는 구조화의 목적대로 프로그램을 각 관심사별로 분리하여 각 서브 프로그램이 하나씩의   
+  관심사만을 소유하게 만들어 프로그램의 복잡성을 감소시키는 것이 그 이유이다.  
   
   [Separation Of Concerns에 대한 좀 더 자세한 번역글](https://kwangyulseo.com/2015/05/29/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%ACseparation-of-concerns/)  
   나는 서버 입장에서 보는게 좋으니 서버 입장으로 보자면  
@@ -74,7 +73,7 @@ DB가 바뀌면? 연결 방식은? 데이터가 많아지면? 화면 구성이 �
   ```
   ```  
 
-3. 계층화 versus 구조화  
+## 계층화 versus 구조화  
 구조화는 관심사를 분리하여 하나의 프로그램이 하나의 관심사만을 가지게 하는 것이라고 알았다.  
 그렇다면 계층화는 뭘까?  
 - 계층화  
@@ -90,7 +89,7 @@ DB가 바뀌면? 연결 방식은? 데이터가 많아지면? 화면 구성이 �
   이렇게 나누어진 계층을 통해 각 계층별 관심사를 분리하는 것이 계층화와 구조화가 아닐까?  
   [Architecture 구현 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/#1-%EA%B3%84%EC%B8%B5%ED%99%94-%ED%8C%A8%ED%84%B4-layered-pattern)  
 
-4. 구조화에 대해 알아야 하는 이유는?  
+## 구조화에 대해 알아야 하는 이유는?  
 내 생각으로는 결국 코드를 짜는 것은 사람이기때문이 아닐까 싶다.  
 실제로 서버 운영의 핵심은 디버깅과 트러블 슈팅, 이슈 해결이 중심으로 알고 있는데  
 프로그램을 계층별로 구분하고, 각 계층별로 관심사를 분리한다면 이슈의 확인과 트러블 슈팅이 더욱 쉽기 때문이 아닐까?  
@@ -98,7 +97,7 @@ DB가 바뀌면? 연결 방식은? 데이터가 많아지면? 화면 구성이 �
   - Web App 기준 계층화와 구조화를 이룬 Architecture  
   ![image](https://user-images.githubusercontent.com/38939634/64836845-b5e07c00-d626-11e9-977a-60d9eea0ebd9.png)
   
-5. 결국 구조화란?  
+## 결국 구조화란?  
 - 하나의 프로그램을 구성하는 코드에서 각 코드 별 관심사를 분리하는 것  
 - 계층화를 통해 각 코드가 구성해야할 부분을 구분하고, 구조화를 통해 분리 된 계층에서 관심사 별로 코드를 구성한다.  
 - 구조화 된 코드와 설계?는 각각 하는 역할을 추론이 가능하다.  
@@ -130,7 +129,7 @@ callback이 왜 계층화를 위배하지 않는지에 대한 정말 정말 좋�
   물론, 이런 구조를 많이 가질수록 좋은 소프트웨어는 좋은 구조가 아니다.   
   될 수 있으면 이런 것들을 줄여주는 것이 좋은 구조를 시스템에 반영할 수 있게 된다.   
   계층화 시킨 코드들은 각 모듈이나 계층에서의 변화가 상위 혹은 하위 계층으로 전달되는 영향이 제한적이기에 변화에도 유연한 시스템을 만들수 있게된다.  
-6. 번외  
+## 번외  
 계층화와 구조화를 공부하다보니 번뜩하고 깨달은 것은 Spring을 사용하는 이유가 이게 아닐까 싶었다.  
 Spring Framework는  
     - 컨테이너를 통해 객체를 Spring이 관리한다.  
