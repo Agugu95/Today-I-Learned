@@ -8,6 +8,7 @@
   - [NaverD2](https://www.d2.naver.com/)  
   - [우아한형제들 기술블로그](https://woowabros.github.io/)  
   - [위키백과](https://www.wikipedia.org/)  
+  - [아해팀 블로그](https://devahea.github.io/)  
   
 특히나 백엔드 관련 부분은 NaverD2에 참 좋은 글이 많다.  
 상대적으로 개념을 쉽게 풀어주고 코드까지 보여주니 참 좋다.
