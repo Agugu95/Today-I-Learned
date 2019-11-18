@@ -13,10 +13,18 @@
 특히나 백엔드 관련 부분은 NaverD2에 참 좋은 글이 많다.  
 상대적으로 개념을 쉽게 풀어주고 코드까지 보여주니 참 좋다.
 
+## Tip of the Tongue 
+항상 혀 끝을 스치는 조각들  
+- [공부하다 나온 팁팁팁](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%ED%8C%81%ED%8C%81.md)  
+
 ## Java  
 [이것이 자바다](http://www.yes24.com/Product/Goods/15651484?scode=032&OzSrank=1)  
 [Effective Java 3/e](http://www.yes24.com/Product/Goods/65551284?Acode=101)  
-- [자바 멀티스레딩 구현](https://github.com/Agugu95/Today-I-Learned/blob/master/Java/Multi-Threading.md)  
+- [멀티스레딩 구현](https://github.com/Agugu95/Today-I-Learned/blob/master/Java/Multi-Threading.md)  
+- [Wrapper 클래스의 메소드 valueOf vs. parseInt](https://github.com/Agugu95/Today-I-Learned/tree/master/Java/ValueOf-ParseInt.md)  
+- [Sort와 Compare 구현](https://github.com/Agugu95/Today-I-Learned/blob/master/Java/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%EC%9D%98%20%EC%A0%95%EB%A0%AC.md)  
+- [캡슐화와 Getter Setter 메소드](https://github.com/Agugu95/Today-I-Learned/blob/master/Java/GetterAndSetter.md)  
+
 
 ## Network  
 [TCP/IP가 보이는 그림책](http://www.yes24.com/Product/Goods/73020774?Acode=101)    
@@ -38,6 +46,8 @@
 
 - [Concurrency-vs-Parallelism](https://github.com/Agugu95/Today-I-Learned/blob/master/OS/Concurrence-vs-Parallel.md)  
 - [Synchronous/Asynchronous and Blocking/Non-Blocking](https://github.com/Agugu95/Today-I-Learned/blob/master/OS/SyncAndAsync.md)  
+- [Process vs. Thread](https://github.com/Agugu95/Today-I-Learned/tree/master/OS/Process-Thread.md)  
+
 ## RDB  
 [자바 ORM 표준 JPA 프로그래밍](http://www.yes24.com/Product/Goods/64988508?Acode=101)  
 
@@ -59,7 +69,7 @@
   - [이진검색](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Searchig/Binary-Search.md)  
   
 - Sorting Algorithm  
-[정렬 알고리즘이란?](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Sort/SortingAlgorithm.md)  
+  - [정렬 알고리즘이란?](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Sort/SortingAlgorithm.md)  
 
 ## Algorithm  
 [알고리즘 문제해결 전략](http://www.yes24.com/Product/Goods/8006522?Acode=101)
