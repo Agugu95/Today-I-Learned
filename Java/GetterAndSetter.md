@@ -1,4 +1,4 @@
-#Getter와 Setter Method  
+# Getter와 Setter Method  
 캡슐화와 관련되어 있는 Getter와 Setter Method  
   1. 기본적인 변수의 값 할당 방식을 알아본다.  
   2. Getter와 Setter를 알아본다.  
