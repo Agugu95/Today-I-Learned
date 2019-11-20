@@ -15,9 +15,9 @@ Comparable<T> Interface가 받을 수 있는 파라미터는
 Comparable Interface를 좀 더 자세히 살펴보자.  
 Comparable Interface는 Natural Order(자연 정렬)을 구현하고 있으며 
   - Natural Order(자연 정렬)  
-  데이터 정렬 시 숫자의 순서를 자연스럽게 맞추어 주는 것  
-  a1, a10, a2, a21은 자연스럽지 않음  
-  a1, a2, a10, a21은 자연스러운 정렬  
+  데이터 정렬 시 숫자의 순서를 자연스럽게 맞추어 주는 것    
+  a1, a10, a2, a21은 자연스럽지 않음    
+  a1, a2, a10, a21은 자연스러운 정렬    
 
 
 Comparable<T> Interface는 CompareTo(T o)만을 inteface 메소드로 정의하고 있는데 ComparaTo(T o)는  
@@ -25,9 +25,9 @@ Comparable<T> Interface는 CompareTo(T o)만을 inteface 메소드로 정의하�
   Compares this object with the specified object for order.  
   Returns a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.  
   ```
-this가 o보다 큰 경우 1 반환 this > o return 1;  
-this가 o보다 작은 경우 -1 반환 this < o return -1;  
-this가 o와 같은 경우 0을 반환한다. this == o return 0;  
+this가 o보다 큰 경우 1 반환 this > o return 1;    
+this가 o보다 작은 경우 -1 반환 this < o return -1;    
+this가 o와 같은 경우 0을 반환 this == o return 0;    
 
 ## Comparator Interface  
 Comparator는 java.util.Comparator 인터페이스로 존재한다.  
@@ -51,7 +51,8 @@ Comparator는 Compare(T o1, T o2)를 메소드로 정의하고 있으며
   Collection 프레임워크를 다룰 수 있는 Collections 라이브러리에서 제공해주는 메소드  
   역시 ASC (오름차순) 자연정렬을 해준다.  
 
-각 Comparable Interface를 구현하고 있는 클래스끼리는 인스턴스 비교가 가능하고, Natural Order가 된다.  
+각 Comparable Interface를 구현하고 있는 클래스끼리는 인스턴스 비교가 가능하고  
+Natural Order가 된다.  
   
 ## 각 라이브러리 정렬의 구현  
 - Arrays.sort()  
@@ -72,4 +73,27 @@ static final class NaturalOrder implements Comparator<Object> {
 결론적으로 Array나 List같은 경우는 Comparable Inteface를 구현한 클래스들을 사용하여 Natural Order를 할 수 있다.   
 
 ## Comparator vs. Comparable  
+- Comparable Interface  
+기본적으로 자바는 Arrays.sort, Collections.sort에서 자료구조에 대한 정렬을 제공해준다.  
+이 정렬들은 실제로 Comparable Interface를 구현하고 있고, 순수한 상태의 Comparable 구현은 Natural Order(자연정렬)과 문자열 정렬을 제공한다.  
+```
+public static void main(String[] args) {
+        String[] name = new String[]{"ab", "cd", "ef", "ge", "hr", "zx", "wqw", "xcv"};
+
+        Arrays.sort(name);
+        for (int i = 0; i < name.length; i++) {
+            System.out.print(name[i] + " "); 
+        }
+        System.out.println();
+        Arrays.sort(name, Collections.reverseOrder());
+        for (int i = 0; i < name.length; i++) {
+            System.out.print(name[i] + " ");
+        }
+    }
+```
+기본적인 Arrays.sort Collections.sort API를 사용한 문자열 정렬이다.
+```
+ab cd ef ge hr wqw xcv zx // Arrays.sort(name)
+zx xcv wqw hr ge ef cd ab // Arrays.sort(name, Collections.reverseOrder())
+```
 
