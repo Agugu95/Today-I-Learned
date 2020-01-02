@@ -1,4 +1,4 @@
-#URL과 URI  
+# URL과 URI  
 URL이 뭔지는 알지만 정확히 URL이 뭘까?  
 REST API 방식은 리소스에 URL을 지정한 것을 구현하는 방식인데..  
 
@@ -26,7 +26,8 @@ Query를 처리하는 게이트웨이를 위해 보통은 &로 구분 된 이름
 http://www.github.com/Agugu95/Today-I-Learnd/Network?data=123&data2=456  
 
 
-https://www.google.com/search?q=url+encoding&oq=url+encod&aqs=chrome.0.0l2j69i57j0l3.4442j0j8&sourceid=chrome&ie=UTF-8이 URL은  
+https://www.google.com/search?q=url+encoding&oq=url+encod&aqs=chrome.0.0l2j69i57j0l3.4442j0j8&sourceid=chrome&ie=UTF-8 
+위 URL은  
   - https://
   - www.google.com
   - /search ~ 
