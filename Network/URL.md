@@ -22,11 +22,12 @@ URL은 http://www.github.com/Agugu95/Today-I-Learnd/Network/URL.md 같은 형식
 이는 Query String이라고하는 URL에게 추가적으로 범위를 주기 위한 질의 문자열이다.  
 만약 데이터를 담고 있는 DB와 연결되어있을 경우 빠르게 데이터를 검색하기 위해  
 http://www.github.com/Agugu95/Today-I-Learnd/Network?data=123 과 같은 형식으로 URL을 작성할 수 있다.  
+
 Query를 처리하는 게이트웨이를 위해 보통은 &로 구분 된 이름=값 형식을 사용한다.  
 http://www.github.com/Agugu95/Today-I-Learnd/Network?data=123&data2=456  
 
-
-https://www.google.com/search?q=url+encoding&oq=url+encod&aqs=chrome.0.0l2j69i57j0l3.4442j0j8&sourceid=chrome&ie=UTF-8 
+- 구글 URL의 경우  
+https://www.google.com/search?q=url+encoding&oq=url+encod&aqs=chrome.0.0l2j69i57j0l3.4442j0j8&sourceid=chrome&ie=UTF-8   
 위 URL은  
   - https://
   - www.google.com
