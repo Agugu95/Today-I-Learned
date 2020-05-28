@@ -13,6 +13,6 @@
 - Insertion Sort
 
 ## 정리 링크
-Bubble Sort
-Selection Sort
-Insertion Sort
+[Bubble Sort](https://velog.io/@agugu95/Java-Bubble-Sort)  
+[Selection Sort](https://velog.io/@agugu95/Java-Selection-Sort)  
+[Insertion Sort](https://velog.io/@agugu95/Java-Insertion-Sort)  
