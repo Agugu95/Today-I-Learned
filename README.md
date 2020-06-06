@@ -13,9 +13,15 @@
 특히나 백엔드 관련 부분은 NaverD2에 참 좋은 글이 많다.  
 상대적으로 개념을 쉽게 풀어주고 코드까지 보여주니 참 좋다.
 
+-------------------  
+정리는 앞으로 벨로그에 함.
+[벨로그](https://velog.io/@agugu95)
+-------------------
+
+
 ## Tip of the Tongue 
-항상 혀 끝을 스치는 조각들  
-- [공부하다 나온 팁팁팁](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%ED%8C%81%ED%8C%81.md)  
+혀 끝을 스치는 조각들  
+- [공부하다 나온 조각들](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%ED%8C%81%ED%8C%81.md)  
 
 ## Java  
 [이것이 자바다](http://www.yes24.com/Product/Goods/15651484?scode=032&OzSrank=1)  
@@ -84,26 +90,23 @@
   
   - [이진검색](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Searchig/Binary-Search.md)  
   
-- Sorting Algorithm  
-  - [정렬 알고리즘이란?](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Sort/SortingAlgorithm.md)  
+
 
 ## Algorithm  
-[알고리즘 문제해결 전략](http://www.yes24.com/Product/Goods/8006522?Acode=101)
+[바킹독 블로그](https://blog.encrypted.gg/)
 [권오흠 2015 봄학기 알고리즘 강의](https://www.youtube.com/watch?v=ln7AfppN7mY&list=PL52K_8WQO5oUuH06MLOrah4h05TZ4n38l)  
 
 
 - 종만북  
-[7p ROCK FESTIVAL 난이도: 하](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/%EC%A2%85%EB%A7%8C%EB%B6%81/FESTIVAL.md)  
-
-- 삼성 SW 아카데미  
-
-- 백준 단계별 풀이  
+[7p ROCK FESTIVAL 난이도: 하](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/%EC%A2%85%EB%A7%8C%EB%B6%81/FESTIVAL.md)   
 
 - [알고리즘 시간/공간 복잡도](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/Algorithm-Complexity.md)  
 
 - [알고리즘이란?](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/Algorithm.md)  
 
 - [Recursion 혹은 재귀](https://github.com/Agugu95/Today-I-Learned/blob/master/Algorithm/Recursion.md)  
+
+- [Sorting Algorithm](https://github.com/Agugu95/Today-I-Learned/blob/master/DataStructure/Sort/)  
 
 ## ETC  
 - [계층화와 구조화](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/StructuredAndLayering.md)  
