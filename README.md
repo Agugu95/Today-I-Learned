@@ -13,14 +13,12 @@
 특히나 백엔드 관련 부분은 NaverD2에 참 좋은 글이 많다.  
 상대적으로 개념을 쉽게 풀어주고 코드까지 보여주니 참 좋다.
 
--------------------    
-정리는 앞으로 벨로그에 함.  
+# 2020.06 수정사항 
+현재 정리는 벨로그에 하는 중입니다.  
+깃허브 TIL은 링크와 공부목록만을 업데이트 합니다. 
 [벨로그](https://velog.io/@agugu95)
--------------------  
 
-
-## Tip of the Tongue 
-혀 끝을 스치는 조각들  
+## Scraps
 - [공부하다 나온 조각들](https://github.com/Agugu95/Today-I-Learned/blob/master/ETC/%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%ED%8C%81%ED%8C%81.md)  
 
 ## Java  
